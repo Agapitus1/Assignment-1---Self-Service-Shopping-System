@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+  <link rel="stylesheet" href="./GUI.css" />
+</head>
+
+<body>
+
+<div class="tgh" >
+    <h1 class="hmm"><span> Categories</span></h1>
+        <ul class="store" >
+        <li class="root">
+			<ul>
+				<li class="list1" >
+					<label class="special" >Frozen Food</label>
+					<div class="centered">
+					<img src="1.png" alt="" width="100px" height="100px">
+					</div>
+                    <input type="checkbox" class="hide"/>
+                    
+					<ul class="frozen">
+                        <li class="tail">
+                            <!-- <div class="content" for="HamPatt" onclick="product" target="frame2">Hamburger Patties</div> -->
+                            <form method="post" target="frame2" action="/showitem.php">
+                                    <input type="hidden" id="product_id" name="product_id" value="1002">
+                                    <input class="content" type="submit" onclick="addButton" value="Hamburger Patties">
+                                    <img src="11.png" alt="" width="100px" height="100px">
+                                  </form>
+                        
+                        </li>
+                        
+                        <li>
+                            <label for="#" class="special2">Fish Finger</label>
+                            <ul>
+                                
+                                <li class="tail">
+                                    <!--<div class="content">500 Gram</div>-->
+                                    <form method="post" target="frame2" action="/showitem.php">
+                                    <input type="hidden" id="product_id" name="product_id" value="1000">
+                                    <input class="content" type="submit" value="500 Gram">
+                                    <img src="12.png" alt="" width="100px" height="100px">
+                                  </form>
+                                </li>
+                                
+                                <li class="tail">
+                                    <!--<div class="content">1000 Gram</div>-->
+                                    <form method="post" target="frame2" action="/showitem.php">
+                                    <input type="hidden" id="product_id" name="product_id" value="1001">
+                                    <input class="content" type="submit" value="1000 Gram">
+                                    <img src="12.png" alt="" width="100px" height="100px">
+                                  </form>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                        <li class="tail">
+                            <!--<div class="content">Shelled Prawns</div>-->
+                            <form method="post" target="frame2" action="/showitem.php">
+                            <input type="hidden" id="product_id" name="product_id" value="1003">
+                            <input class="content" type="submit" value="Shelled Prawns">
+                            <img src="13.png" alt="" width="100px" height="100px">
+                            </form>
+                        </li>
+                        
+                        <li>
+                            <label for="#" class="special2">Tub Ice Cream</label>
+                            <ul>
+                                
+                                <li class="tail">
+                                    <!--<div class="content">1 Litre</div>-->
+                                    <form method="post" target="frame2" action="/showitem.php">
+                                    <input type="hidden" id="product_id" name="product_id" value="1004">
+                                    <input class="content" type="submit" value="1 Litre">
+                                    <img src="14.png" alt="" width="100px" height="100px">
+                                    </form>
+                                </li>
+                                
+                                <li class="tail">
+                                    <!--<div class="content">2 Litre</div>-->
+                                    <form method="post" target="frame2" action="/showitem.php">
+                                    <input type="hidden" id="product_id" name="product_id" value="1005">
+                                    <input class="content" type="submit" value="2 Litre">
+                                    <img src="14.png" alt="" width="100px" height="100px">
+                                    </form>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                
+				
+				
+				<li class="list2">
+                    <label for="freshfood" class="special">Fresh Food</label>
+					<div class="centered">
+					<img src="2.png" alt="" width="100px" height="100px">
+					</div>
+                    <input type="checkbox" id="freshfood" class="hide"/>
+                    <ul class="freshfood">
+                        
+                        <li>
+                            <label for="#" class="special2">Cheddar Cheese</label>
+                            <ul>
+                                <li class="tail">
+                                    <!--<div class="content">500 Gram</div>-->
+                                    <form method="post" target="frame2" action="/showitem.php">
+                                    <input type="hidden" id="product_id" name="product_id" value="3000">
+                                    <input class="content" type="submit" value="500 Gram">
+                                    <img src="21.png" alt="" width="100px" height="100px">
+                                    </form>
+									</li>
+                                <li class="tail">
+                                    <!--<div class="content">1000 Gram</div>-->
+                                    <form method="post" target="frame2" action="/showitem.php">
+                                    <input type="hidden" id="product_id" name="product_id" value="3001">
+                                    <input class="content" type="submit" value="1000 Gram">
+                                    <img src="21.png" alt="" width="100px" height="100px">
+                                    </form>
+                                </li>
+                            </ul>
+                        </li>
+                        
+						<li class="tail">
+                            <!--<div class="content">T'Bone Steak</div>-->
+                            <form method="post" target="frame2" action="/showitem.php">
+                            <input type="hidden" id="product_id" name="product_id" value="3002">
+                            <input class="content" type="submit" value="T'Bone Steak">
+                            <img src="22.png" alt="" width="100px" height="100px">
+                            </form>
+                        </li>
+                        
+                        <li class="tail">
+                             <!--<div class="content">Navel Oranges</div>-->
+                            <form method="post" target="frame2" action="/showitem.php">
+                            <input type="hidden" id="product_id" name="product_id" value="3003">
+                            <input class="content" type="submit" value="Navel Oranges">
+                            <img src="23.png" alt="" width="100px" height="100px">
+                            </form>
+                        </li>
+                        
+                        <li class="tail">
+                             <!--<div class="content">Bananas</div>-->
+                            <form method="post" target="frame2" action="/showitem.php">
+                            <input type="hidden" id="product_id" name="product_id" value="3004">
+                            <input class="content" type="submit" value="Bananas">
+                            <img src="24.png" alt="" width="100px" height="100px">
+                            </form>
+                        </li>
+                        
+						<li class="tail">
+                            <!--<div class="content">Peaches</div>-->
+                            <form method="post" target="frame2" action="/showitem.php">
+                            <input type="hidden" id="product_id" name="product_id" value="3005">
+                            <input class="content" type="submit" value="Peaches">
+                            <img src="25.png" alt="" width="100px" height="100px">
+                        </li>
+                        
+                        <li class="tail">
+                            <!--<div class="content">Grapes</div>-->
+                            <form method="post" target="frame2" action="/showitem.php">
+                            <input type="hidden" id="product_id" name="product_id" value="3006">
+                            <input class="content" type="submit" value="Grapes">
+                            <img src="26.png" alt="" width="100px" height="100px">
+                            </form>
+                        </li>
+                        
+                        <li class="tail">
+                            <!--<div class="content">Apples</div>-->
+                            <form method="post" target="frame2" action="/showitem.php">
+                            <input type="hidden" id="product_id" name="product_id" value="3007">
+                            <input class="content" type="submit" value="Apples">
+                            <img src="27.png" alt="" width="100px" height="100px">
+                            </form>
+                        </li>
+                    </ul>
+                </li>
+				
+				
+                <li class="list3">
+                    <label for="beverages" class="special">Beverages</label>
+					<div class="centered">
+					<img src="3.png" alt="" width="100px" height="100px">
+					</div>
+                    <input type="checkbox" class="hide"/>
+                    
+                    <ul class="beverages">
+                        <li>
+                            <label for="#" class="special2">Coffee</label>
+                            <ul>
+                                <li class="tail">
+                                <!--<div class="content">200 gram</div>-->
+                                <form method="post" target="frame2" action="/showitem.php">
+                                <input type="hidden" id="product_id" name="product_id" value="4003">
+                                <input class="content" type="submit" value="200 gram">
+                                <img src="31.png" alt="" width="100px" height="100px">
+                                </form>
+                                </li>
+                                
+                                <li class="tail">
+                                <!--<div class="content">500 gram</div>-->
+                                <form method="post" target="frame2" action="/showitem.php">
+                                <input type="hidden" id="product_id" name="product_id" value="4004">
+                                <input class="content" type="submit" value="500 gram">
+                                <img src="31.png" alt="" width="100px" height="100px">
+                                </form>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li>
+                            <label for="#" class="special2">Earl Grey Tea Bags</label>
+                            <ul>
+                                
+                                <li class="tail">
+                                <!--<div class="content">Pack 25</div>-->
+                                <form method="post" target="frame2" action="/showitem.php">
+                                <input type="hidden" id="product_id" name="product_id" value="4000">
+                                <input class="content" type="submit" value="Pack 25">
+                                <img src="32.png" alt="" width="100px" height="100px">
+                                </form>
+                                </li>
+                                
+                                <li class="tail">
+                                <!--<div class="content">Pack 100</div>-->
+                                <form method="post" target="frame2" action="/showitem.php">
+                                <input type="hidden" id="product_id" name="product_id" value="4001">
+                                <input class="content" type="submit" value="Pack 100">
+                                <img src="32.png" alt="" width="100px" height="100px">
+                                </form>
+                                </li>
+                                
+                                <li class="tail">
+                                <!--<div class="content">Pack 200</div>-->
+                                <form method="post" target="frame2" action="/showitem.php">
+                                <input type="hidden" id="product_id" name="product_id" value="4002">
+                                <input class="content" type="submit" value="Pack 200">
+                                <img src="32.png" alt="" width="100px" height="100px">
+                                </form>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="tail">
+                                <!--<div class="content">Chocolate Bar</div>-->
+                                <form method="post" target="frame2" action="/showitem.php">
+                                <input type="hidden" id="product_id" name="product_id" value="4005">
+                                <input class="content" type="submit" value="Chocolate Bar">
+                                <img src="33.png" alt="" width="100px" height="100px">
+                                </form>
+                        </li>
+                    </ul>
+                </li>
+                
+                
+                <li class="list4">
+                    <label for="homehealth" class="special">Home Health</label>
+					<div class="centered">
+					<img src="4.png" alt="" width="100px" height="100px">
+					</div>
+                    <input type="checkbox" id="homehealth" class="hide"/>
+                    <ul class="homehealth">
+                        
+                        <li class="tail">
+                                <!--<div class="content">Bath Soap</div>-->
+                                <form method="post" target="frame2" action="/showitem.php">
+                                <input type="hidden" id="product_id" name="product_id" value="2002">
+                                <input class="content" type="submit" value="Bath Soap">
+                                <img src="41.png" alt="" width="100px" height="100px">
+                                </form>
+                        </li>
+                        
+                        <li>
+                            <label for="#" class="special2">Panadol</label>
+                            <ul>
+                                
+                                <li class="tail">
+                                <!--<div class="content">Pack 24</div>-->
+                                <form method="post" target="frame2" action="/showitem.php">
+                                <input type="hidden" id="product_id" name="product_id" value="2000">
+                                <input class="content" type="submit" value="Pack 24">
+                                <img src="42.png" alt="" width="100px" height="100px">
+                                </form>
+                                </li>
+                                
+                                <li class="tail">
+                                <!--<div class="content">Bottle 50</div>-->
+                                <form method="post" target="frame2" action="/showitem.php">
+                                <input type="hidden" id="product_id" name="product_id" value="2001">
+                                <input class="content" type="submit" value="Bottle 50">
+                                <img src="42.png" alt="" width="100px" height="100px">
+                                </form>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                        <li class="tail">
+                                <!--<div class="content">Washing Powder</div>-->
+                                <form method="post" target="frame2" action="/showitem.php">
+                                <input type="hidden" id="product_id" name="product_id" value="2005">
+                                <input class="content" type="submit" value="Washing Powder">
+                                <img src="43.png" alt="" width="100px" height="100px">
+                                </form>
+                        </li>
+                        
+                        <li>
+                            <label for="#" class="special2">Garbage Bags</label>
+                            <ul>
+                                <li class="tail">
+                                    <!--<div class="content">Pack 10</div>-->
+                                    <form method="post" target="frame2" action="/showitem.php">
+                                    <input type="hidden" id="product_id" name="product_id" value="2003">
+                                    <input class="content" type="submit" value="Pack 10">
+                                    <img src="44.png" alt="" width="100px" height="100px">
+                                    </form>
+                                </li>
+                                
+                                <li class="tail">
+                                    <!--<div class="content">Pack 50</div>-->
+                                    <form method="post" target="frame2" action="/showitem.php">
+                                    <input type="hidden" id="product_id" name="product_id" value="2004">
+                                    <input class="content" type="submit" value="Pack 50">
+                                    <img src="44.png" alt="" width="100px" height="100px">
+                                    </form>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                        <li class="tail">
+                             <!--<div class="content">Laundry Bleach</div>-->
+                            <form method="post" target="frame2" action="/showitem.php">
+                            <input type="hidden" id="product_id" name="product_id" value="2006">
+                            <input class="content" type="submit" value="Laundry Bleach">
+                            <img src="45.png" alt="" width="100px" height="100px">
+                            </form>
+                        </li>
+                    </ul>
+                </li>
+				
+				
+                <li class="list5">
+                    <label for="petfood" class="special">Pet Food</label>
+					<div class="centered">
+					<img src="5.png" alt="" width="100px" height="100px">
+					</div>
+                    <input type="checkbox" id="petfood" class="hide"/>
+                    <ul class="petfood">
+                        
+                        <li class="tail">
+                            <!--<div class="content">Bird Food</div>-->
+                            <form method="post" target="frame2" action="/showitem.php">
+                            <input type="hidden" id="product_id" name="product_id" value="5002">
+                            <input class="content" type="submit" value="Bird Food">
+                            <img src="51.png" alt="" width="100px" height="100px">
+                            </form>
+                        </li>
+                        
+                        <li class="tail">
+                            <!--<div class="content">Cat Food</div>-->
+                            <form method="post" target="frame2" action="/showitem.php">
+                            <input type="hidden" id="product_id" name="product_id" value="5003">
+                            <input class="content" type="submit" value="Cat Food">
+                            <img src="52.png" alt="" width="100px" height="100px">
+                            </form>
+                        </li>
+                        
+                        <li>
+                            <label for="#" class="special2">Dry Dog Food</label>
+                            <ul>
+                                <li class="tail">
+                                    <!--<div class="content">1 kg Pack</div>-->
+                                    <form method="post" target="frame2" action="/showitem.php">
+                                    <input type="hidden" id="product_id" name="product_id" value="5001">
+                                    <input class="content" type="submit" value="1 kg Pack">
+                                    <img src="53.png" alt="" width="100px" height="100px">
+                                    </form>
+                                </li>
+                                <li class="tail">
+                                    <!--<div class="content">5 kg Pack</div>-->
+                                    <form method="post" target="frame2" action="/showitem.php">
+                                    <input type="hidden" id="product_id" name="product_id" value="5000">
+                                    <input class="content" type="submit" value="5 kg Pack">
+                                    <img src="53.png" alt="" width="100px" height="100px">
+                                    </form>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="tail">
+                             <!--<div class="content">Fish Food</div>-->
+                            <form method="post" target="frame2" action="/showitem.php">
+                            <input type="hidden" id="product_id" name="product_id" value="5004">
+                            <input class="content" type="submit" value="Fish Food">
+                            <img src="54.png" alt="" width="100px" height="100px">
+                            </form>
+                            
+                            
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        </ul>
+		</div>
+
+</body>
+
+</html>
